@@ -33,7 +33,12 @@ export default class extends React.Component {
       return (
         <div style={{padding: 20}}>
           <h1>WRLog plot utility</h1>
-          <p>A simple utitlity to plot data from WRLog</p>
+          <h3>Rationale</h3>
+          <p>
+            WRLog gateways lack the ability to plot health data (battery voltage,
+            temperature and uptime) from nodes in the network. <br />
+            This uitility has been created to do just that.
+          </p>
           <input 
             type="file" 
             id="file" 
